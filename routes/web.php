@@ -22,3 +22,6 @@ Route::get('/uploadvideo', function () {
 });
 
 Route::post('/adminvideoupload', 'FileController@adminvideoupload');
+Route::get('/test', 'TestController@test');
+
+
